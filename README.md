@@ -1,6 +1,6 @@
 # Folk-Fulkerson algorithm to solve the maximum flow problem in a railway network system.
 * Written by: [Ivy Wu S.Y.](https://www.linkedin.com/in/ivy-wusumyi)
-* Technologies: VBA, spreadsheet, Folk-Fulkerson algorithm, optimsation
+* Technologies: VBA, user form, Folk-Fulkerson algorithm, optimsation
 
 
 ## 1. Introduction
@@ -14,7 +14,7 @@ The solver uses the Ford-Fulkerson algorithm to calculate the optimal flows of e
 
 ## 3. User Interfaces
 To increase the usability of the solver, two interactive user forms are built to provide guidance and allow easier data input. Users could navigate on the main tab to initiate functions for different purposes.<br/>
-<img src="/images/tab.png?raw=true" width="550">
+<img src="/images/tab.png?raw=true" width="250">
 
 ### 3.1 Define Problem Size
 The user form contains 3 parts sequentially from “Clear Data”, “Problem Size” to “Station Linkage Data”. The proposed user journey is designed to start from top to bottom, in which users should first clear the existing data before starting a new problem and subsequently define the stations and input rail segment data. <br/>
@@ -22,7 +22,7 @@ The user form contains 3 parts sequentially from “Clear Data”, “Problem Si
 
 ### 3.2 Define Origin and Destination
 The second user form is created for users to initiate the Ford-Fulkerson algorithm. Two dropdown lists of stations are retrieved dynamically for users to select their origin station and the desired destination. The solve button will call the program to run the algorithm and generate outputs. <br/>
-<img src="/images/solver.png?raw=true" width="550">
+<img src="/images/solver.png?raw=true" width="400">
 
 ### 3.3 Sample Output
 Summary output of optimal flows from the Oxford station to the Gatwick Airport station.<br/>
@@ -32,12 +32,12 @@ Datiled journey of optimal flows from the Oxford station to the Gatwick Airport 
 <img src="/images/journey.png?raw=true" width="550"><br/>
 
 
-### 4. About the programming
+## 4. About the programming
 
-## 4.1 Files
+### 4.1 Files
 The solver is developed in an Excel with VBA and user forms embedded. The solver is available [here](/Railway_maximum_flow_solver.xlsm).
 
-## 4.2 Data
+### 4.2 Data
 A sample station list of the British train operating company, Great Western Railway, is provided in the XLSM file.
 
 ### To learn more about Ivy Wu S.Y., visit her [LinkedIn profile](https://www.linkedin.com/in/ivy-wusumyi)
